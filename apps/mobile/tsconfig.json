@@ -1,0 +1,9 @@
+{
+  "extends": "@ambagan/config/tsconfig/react-native.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@ambagan/utils": ["../../packages/utils/src"]
+    }
+  }
+}

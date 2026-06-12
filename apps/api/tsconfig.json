@@ -1,0 +1,9 @@
+{
+  "extends": "@ambagan/config/tsconfig/nest.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": { "@ambagan/utils": ["../../packages/utils/src"] }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "test", "**/*spec.ts"]
+}
