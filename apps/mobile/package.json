@@ -1,0 +1,28 @@
+{
+  "name": "@ambagan/mobile",
+  "version": "0.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "dev": "expo start",
+    "build:ios": "eas build --platform ios",
+    "build:android": "eas build --platform android",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx",
+    "clean": "rm -rf .expo"
+  },
+  "dependencies": {
+    "@ambagan/utils": "workspace:*",
+    "expo": "~51.0.0",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "0.74.0"
+  },
+  "devDependencies": {
+    "@ambagan/config": "workspace:*",
+    "@babel/core": "^7.24.0",
+    "@types/react": "~18.2.79",
+    "babel-preset-expo": "~11.0.0",
+    "typescript": "^5.3.3"
+  }
+}
