@@ -1,0 +1,40 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Build outputs
+dist
+.next
+out
+build
+*.tsbuildinfo
+
+# Turbo
+.turbo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+*.pem
+Thumbs.db
+
+# Testing
+coverage
+
+# Expo
+.expo
+ios/
+android/
+
+# Docker
+pgdata/
