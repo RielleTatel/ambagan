@@ -1,11 +1,12 @@
 {
   "extends": "@ambagan/config/tsconfig/nextjs.json",
   "compilerOptions": {
-    "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
       "@ambagan/ui": ["../../packages/ui/src"],
       "@ambagan/utils": ["../../packages/utils/src"]
     }
-  }
+  },
+  "include": ["**/*.ts", "**/*.tsx", "next-env.d.ts", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }
